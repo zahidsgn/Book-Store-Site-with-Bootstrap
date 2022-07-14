@@ -1,0 +1,34 @@
+
+  ul {
+    list-style: none;
+}
+
+li {
+    position:relative;
+}
+
+li:before {
+    content: "\25b8";
+    position:static;
+    left: -1em;
+    color: blueviolet;
+}
+p{
+    font-weight: 400;
+    font-family: Monospace;
+}
+a,h1,li,button{ 
+       font-family: Monospace;
+}
+
+.body{
+    background-color:#E9ECEF;
+}
+
+.pill{
+    background-color: #DBF227;; 
+    color: #042940; 
+    font-size: 18px;
+    
+    
+}
